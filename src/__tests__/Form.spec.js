@@ -1,7 +1,7 @@
 import React from "react";
 import { shallow } from "enzyme";
 
-import Form from "./src/components/Form"; //check later
+import Form from "./src/components/Form";
 
 describe("Form", () => {
   const handleChange = jest.fn();

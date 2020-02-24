@@ -1,4 +1,4 @@
-export const calculateBmi = (weight, height) => {
+export const calculateBMI = (weight, height) => {
     const bmiValue = (weight / (((height / 100) * height) / 100)).toFixed(2);
     const bmiMessage = setBMIMessage(bmiValue);
     return [bmiValue, bmiMessage];
@@ -21,3 +21,5 @@ const setBMIMessage = finalBMI => {
         return "Obese";
     }
 };
+
+export default calculateBMI;

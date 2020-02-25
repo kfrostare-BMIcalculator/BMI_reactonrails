@@ -25,7 +25,7 @@ const Form = props => {
               onChange={props.onChangeHandler}
             />
             <button id='calculate'>Calculate BMI</button>
-            <label class="switch">
+            <label id="switch">Imperial
               <input type="checkbox"></input>
               <span class="slider round"></span>
 

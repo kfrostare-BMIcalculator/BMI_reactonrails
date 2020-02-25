@@ -27,7 +27,7 @@ const Form = props => {
       <br></br><br></br><br></br>
       <label id="switch">
         Imperial
-        <br></br><input type="checkbox"></input>
+        <br></br><br></br><input type="checkbox" id="check"></input>
         <span class="slider round"></span>
       </label>
     </form>

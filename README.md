@@ -1,5 +1,5 @@
-# BMI Calculator
-Authors: [Karolina Frostare](https://github.com/kfrostare) and [Daniel Bryant](https://github.com/DanielGITB)
+# [BMI Calculator](https://bmicalculatorror.netlify.com/)
+Authors: [Karolina Frostare](https://github.com/kfrostare) and [Daniel Bryant](https://github.com/DanielGITB), click on the Title to view the app live.
 
 ![The BMI Calculator built with React on Rails](src/bmiprintscreen.png)
 

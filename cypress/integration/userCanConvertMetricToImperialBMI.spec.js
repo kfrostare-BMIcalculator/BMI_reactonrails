@@ -3,7 +3,7 @@ describe('BMI Calculator', () => {
       cy.visit('/');
     })
     it('Calculates BMI in metric',() => {
-      cy.get('select#select-method').select('metric');
+      // cy.get('select#switch').select('metric');
       cy.get('input#weight').type(90);
       cy.get('input#height').type(190);
       cy.get('button#calculate').click();
@@ -16,4 +16,4 @@ describe('BMI Calculator', () => {
       cy.get('button#calculate').click();
       cy.get('p#bmi-message').should('contain', 'You are Overweight with a BMI of 25.42')
     })
-  })
+})

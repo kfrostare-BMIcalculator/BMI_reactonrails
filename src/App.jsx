@@ -12,6 +12,8 @@ class App extends Component {
     bmiMessage: ""
   };
 
+  
+
   onChangeHandler = e => this.setState({ [e.target.name]: e.target.value });
 
   onSubmitHandler = e => {
@@ -22,6 +24,8 @@ class App extends Component {
     );
     this.setState({ bmiValue: bmiValue, bmiMessage: bmiMessage });
   };
+
+
 
   render() {
     return (
@@ -38,6 +42,7 @@ class App extends Component {
             bmiMessage={this.state.bmiMessage}
             />
         )}
+        
       </div>
     );
   }

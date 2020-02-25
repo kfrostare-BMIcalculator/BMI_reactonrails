@@ -1,6 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# BMI Calculator
+Authors: [Karolina Frostare](https://github.com/kfrostare) and [Daniel Bryant](https://github.com/DanielGITB)
+
+![The BMI Calculator built with React on Rails](src/bmiprintscreen.png)
 
 ## Available Scripts 8)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
 In the project directory, you can run:
 
@@ -66,3 +70,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### License
+MIT
